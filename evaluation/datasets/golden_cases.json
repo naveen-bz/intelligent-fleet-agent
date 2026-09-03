@@ -1,0 +1,43 @@
+[
+  {
+    "id": "delay-001",
+    "question": "Will shipment SH123 be delayed because of weather?",
+    "shipment_id": "SH123",
+    "expected_agents": [
+      "shipment",
+      "weather",
+      "prediction"
+    ],
+    "expected_keywords": [
+      "shipment",
+      "weather",
+      "delay"
+    ]
+  },
+  {
+    "id": "safety-001",
+    "question": "Check driver safety for shipment SH456.",
+    "shipment_id": "SH456",
+    "expected_agents": [
+      "shipment",
+      "safety"
+    ],
+    "expected_keywords": [
+      "driver",
+      "safety"
+    ]
+  },
+  {
+    "id": "eta-001",
+    "question": "What is the current ETA for shipment SH789?",
+    "shipment_id": "SH789",
+    "expected_agents": [
+      "shipment",
+      "prediction"
+    ],
+    "expected_keywords": [
+      "eta",
+      "shipment"
+    ]
+  }
+]
