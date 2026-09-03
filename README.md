@@ -163,18 +163,6 @@ The project evaluates:
 - Tool lookup behavior
 - API response behavior
 
-## Production Extension Points
-
-Replace the files under `app/services/` with:
-
-- MCP clients
-- Enterprise shipment APIs
-- Weather APIs
-- Telematics systems
-- Routing systems
-- RAG/vector retrieval
-- Historical data warehouse queries
-
 Recommended control path:
 
 ```text
